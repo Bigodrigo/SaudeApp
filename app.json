@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "saudeapp",
+    "slug": "saudeapp",
+    "owner": "bigodrigo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "backgroundColor": "#FFFFFF",
+    "plugins": [
+      "@notifee/react-native"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ac04a4f1-b88e-4951-867a-ba5a4e45f885"
+      }
+    },
+    "android": {
+      "package": "com.saudeapp.app"
+    }
+  }
+}

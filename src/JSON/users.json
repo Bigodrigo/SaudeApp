@@ -1,0 +1,34 @@
+[
+  {
+    "personalData":
+      {
+        "_id": "1",
+        "picture": "http://placehold.it/32x32",
+        "age": 28,
+        "name": "Maria Santos da Silva",
+        "gender": "Feminino",
+        "company": "Saúde",
+        "email": "maria-silva@email.com",
+        "phone": "(51) xxxxx-xxxx",
+        "address": "Av. Borges de Medeiros, 3210 - Praia de Belas Porto Alegre RS",
+        "zipcode": "90110-150",
+        "registered": "2017-01-01T04:22:54 +02:00"
+      }, 
+    "planData": 
+      {
+        "planclass": "PLUS",
+        "category": "03",
+        "carencia": "até 25/09/2022 doenças ou lesões, congênitas ou preexistentes."
+      },
+    "familyGroup": [
+      {
+        "name": "José Santos da Silva",
+        "cardNumber": "63.78954648.79"
+      },
+      {
+        "name": "Renato Santos da Silva",
+        "cardNumber": "63.11513515.79"
+      }
+    ] 
+  } 
+]
