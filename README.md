@@ -1,5 +1,5 @@
 # Aplicativo Saúde
-## (Atualizado) - 15/05/2023
+## (Atualizado) - 22/05/2023
 ### Este projeto é aplicativo genérico para planos de saúde, permite enviar informações de um cartão virtual por NFC e recebe notificações personalizadas!
 
 <p align="center">
