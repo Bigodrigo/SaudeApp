@@ -1,41 +1,38 @@
-# Aplicativo Saúde
-## (Atualizado) - 22/05/2023
-### Este projeto é aplicativo genérico para planos de saúde, permite enviar informações de um cartão virtual por NFC e recebe notificações personalizadas!
+# Saúde App
+## (Last Update) - 26/05/2023
+### This project is an application designed for health plans. It specifically facilitates the transmission of information through the utilization of a virtual card via NFC and permits the reception of personalized notifications.
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>
 </p>
 
-Foi criado um website para o [Saúde Web](https://saude-web.vercel.app/), onde podemos enviar mensagens para o celular!
-O projeto explicado está acessível em: https://github.com/Bigodrigo/SaudeWeb
+On the website [Saúde Web](https://saude-web.vercel.app/) we can send messages to the application.
+The project explained is accessible at: https://github.com/Bigodrigo/SaudeWeb
 
+## 🚀 Technologies
 
-## 🚀 Tecnologias
+This project has been developed employing the following technologies:
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML e CSS
-- JavaScript e JSON
+- HTML and CSS
+- JavaScript and JSON
 - React, React Native, Native Base
 - [Expo](https://docs.expo.dev/)
 - [HCE NFC](https://github.com/cactuser/react-native-nfc-hce#README.md)
 - [Notifee](https://notifee.app/)
 - [Firebase](https://firebase.google.com/docs?hl=pt-br)
-- [Node e NPM](https://nodejs.org/)
+- [Node and NPM](https://nodejs.org/)
 
-## 💻 Projeto
+## 💻 Project
 
-A ideia do app é simples, substituir um cartão físico, acessar as informações do usuário e enviar mensagens personalizadas através das notificações (push)!
+(*This project is associated with the website. We highly suggest reading them concurrently to gain a comprehensive understanding.*)
 
-O Cartão vai permitir NFC(Aproximação), as informações são obtidas por API e mostradas na tela.
+The concept of the app is simple: replace physical cards, access user data, and send personalized notifications (push messages)!
 
-O Desenvolvimento foi feito em React que usa linguagem de JavaScript. É necessário buscar entender o Expo GO, React, Native Base, Firebase, APIs e o funcionamento do NFC!
+It utilizes NFC (Near Field Communication) for proximity functions, API to obtain data, and rendering of a user interface in React with JavaScript. To bring the visual element to fruition, the design was perfected via prototyping. To test the application, users may download an [APK](/Apk%20Donwload/application-44d64c95-78a4-44c1-aa84-0980dac01c93.apk).
 
-O projeto foi finalizado até o nível de protótipo. Se vc quiser testar o aplicativo, basta baixar o [APK](/Apk%20Donwload/application-44d64c95-78a4-44c1-aa84-0980dac01c93.apk).
-
-Se vc deseja clonar este projeto é importante saber que alguns arquivos precisam ser alterados e outros foram removidos para garantir a segurança das informações!
+Please be advised that should you wish to clone this project, some of the files must be changed, while others have been removed to ensure safety of the data.
 
 - [ ] android/app/google-services.json
 - [ ] firebase.js
@@ -48,11 +45,11 @@ Se vc deseja clonar este projeto é importante saber que alguns arquivos precisa
 <img src="/src/assets/Saude-App.gif" width="270" height="555">
 </div>
 
-## Melhorias?
-- [ ] Responder as mensagens sem abrir o aplicativo;
-- [ ] Adicionar o Storage do FB para enviar imagens e documentos;
-- [ ] Informar ao usuário que todos os campos precisam ser preenchidos na primeira alteração dos dados;
-- [ ] Fatorar o código, substituindo alguns arquivos ou screens por componentes:
+## Suggested Enhancements:
+- [ ] Introduce the ability to respond to messages without requiring the application to be open;
+- [ ] Expand the functionality by incorporating FB Storage in order to enable the sending of images and documents;
+- [ ] Ensure that the user is reminded to fill out all fields when changing data for the first time;
+- [ ] Enhance the codebase through the replacement of certain files or screens with components in order to facilitate factorization:
     - fileUpload;
     - JanelaPerfil;
     - OpenCamera;
